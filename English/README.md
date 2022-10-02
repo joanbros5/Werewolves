@@ -38,7 +38,9 @@ For instance:
 
 	#Juanito Ana Alba Marcos Pepe Alvin Maria Pepa -
 	
-2. Then the program will ask you to enter the roles of the game in a specific format ([number] [role]) and ending with a zero. This is to determine how many roles there will be in the match. Uppercase and lowercase letters can be inserted without problem For instance:
+2. Then the program will ask you to enter the roles of the game in a specific format ([number] [role]) and ending with a zero. This is to determine how many roles there will be in the match. Uppercase and lowercase letters can be inserted without problems.
+
+For instance:
 
 	#5 Villager 2 Humter 2 Wolf 1 Little_Kid 1 Seer 0
 	

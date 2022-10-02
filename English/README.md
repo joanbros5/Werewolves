@@ -16,15 +16,17 @@ These steps only work on a Linux Operating System.
 
 1. First of all go with the terminal to the folder where the files are located.
 
-2. You can directly execute the already created .exe file in a terminal (./Werewolves.exe) to start a game or, if the code of the .cc file is modified, write in the terminal:
+2. You can directly execute the already created .exe file in a terminal (./Werewolves.exe) to start a game.
+
+If the code of the .cc file is modified, compile the progam writing in the terminal:
 
 	#g++ -std=c++11 -o Werewolves.exe Werewolves.cc
 
-3. And then execute the .exe file with: 
+And then execute the .exe file with: 
 
 	#./Werewolves.exe
 	
-4. You can exit the program at any time with Ctrl + C.
+3. You can exit the program at any time with Ctrl + C.
 
 __________________
 -- Functioning --

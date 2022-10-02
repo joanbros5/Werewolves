@@ -401,7 +401,7 @@ void fase_noche(map<int, Persona> & personas) {
                 usleep(200000);
             }
             
-            cout << endl << "And charms" << encantamientos_flautista << " people:" << endl;
+            cout << endl << "And charms " << encantamientos_flautista << " people:" << endl;
             for (auto it = personas.begin(); it != personas.end(); ++it) {
                 if ((it->second).rol != "piper" and not (it->second).encantado) cout << "- " << (it->second).nom << endl;
                 usleep(200000);
@@ -533,7 +533,7 @@ void fase_noche(map<int, Persona> & personas) {
                 usleep(200000);
             }
             
-            cout << endl << "And charms" << encantamientos_flautista << " people:" << endl;
+            cout << endl << "And charms " << encantamientos_flautista << " people:" << endl;
             for (auto it = personas.begin(); it != personas.end(); ++it) {
                 if ((it->second).rol != "piper" and not (it->second).encantado) cout << "- " << (it->second).nom << endl;
                 usleep(200000);

@@ -12,7 +12,7 @@ _______________
 -- Compiling --
 _______________
 
- >These steps only work on a Linux Operating System.
+These steps only work on a Linux Operating System.
 
 1. First of all go with the terminal to the folder where the files are located.
 

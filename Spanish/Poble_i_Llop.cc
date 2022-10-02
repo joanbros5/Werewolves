@@ -270,13 +270,10 @@ void fase_dia(map<int, Persona>& personas) {
     string linchado;
     cin >> linchado;
     
-    bool acaba = false;
-    for (auto it = personas.begin(); it != personas.end() and not acaba; ++it) {
+    for (auto it = personas.begin(); it != personas.end(); ++it) {
         if ((it->second).nom == linchado) {
             (it->second).razon = "Linchado por la aldea";
             cout << (it->second).nom << " - " << (it->second).rol << " - " << (it->second).razon << endl;
-            personas.erase(it);
-            acaba = true;
             usleep(1500000);
             
             //Si muere el cazador, otro muere
@@ -303,6 +300,9 @@ void fase_dia(map<int, Persona>& personas) {
                     }
                 }
             }
+            
+            auto it2 = personas.find(it->first);
+            personas.erase(it2);
         }
     }
     

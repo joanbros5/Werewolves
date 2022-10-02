@@ -4,7 +4,7 @@ _________________
 -- Description --
 _________________
 
-This is a tool for the narrator for the game "The werewolves of Millers Hollow" in the format and roles of "Best Of".
+This is a tool for the narrator for the game "The werewolves of Miller's Hollow" in the format and roles of "Best Of".
 
 The program is in charge of managing the things of the game so that the narrator does not have that much work. In the "Notes" file is the list of characters that are currently made in the program.
 
@@ -38,11 +38,11 @@ For instance:
 
 	#Juanito Ana Alba Marcos Pepe Alvin Maria Pepa -
 	
-2. Then the program will ask you to enter the roles of the game in a specific format ([number] [role]) and ending with a zero. This is to determine how many roles there will be in the match. Uppercase and lowercase letters can be inserted without problems.
+2. Then the program will ask you to enter the roles of the game in a specific format ([number] [role]) and ending with a zero. This is to determine how many roles will be in the match. Uppercase and lowercase letters can be inserted without problems.
 
 For instance:
 
-	#5 Villager 2 Humter 2 Wolf 1 Little_Kid 1 Seer 0
+	#5 Villager 2 Hunter 2 Wolf 1 Little_Kid 1 Seer 0
 	
 In the example above, there will be 5 people with the role of Villager, 2 with Hunter, 2 with Wolf... etc.
 
@@ -63,17 +63,17 @@ If the total number of roles is higher than the number of people in the game, th
 	#A B C D E F -		//6 people
 	#6 Villager 2 Wolf 0	//8 roles
 
-There may be 0, 1 or 2 Wolves in the game. It may be unfair to the wolves, but the game is also more mysterious and fun.
+There may be 0, 1 or 2 Wolves in the game. It might be unfair to the wolves, but the game is also more mysterious and fun.
 
-3. Once the roles have been entered, a list will appear with the results and the game will begin with the phases of each role.
+3. Once the roles have been entered, a list will appear with the results and the game will start with the phases of each role.
 
-If at the time of writing a name it is not in the list, in that phase nothing will be done. For instance, if the wolves must kill a person from this list:
+If you write a person's name that is not on the list, in that phase nothing will be done. For instance, if the wolves must kill a person from this list:
 
 	Joan
 	Pablo
 	Ana
 	Rosa
 	
-And the user types "Maria" nothing will happen. In the same way, if a name is spelled incorrectly (Juan) or with different upper or lower case letters (joan) (JOAN) nothing will happen.
+And the user types "Maria" nothing will happen. In the same way, if a name is spelled incorrectly (Juan) or with different upper or lower case letters (joan or JOAN or JoAn) nothing will happen.
 
-4. The game ends and works with the "Best Of Werewolves of Millers Hollow" rules.
+4. The game ends and works based on the rulebook of "Werewolves of Miller's Hollow" in the "Best of" format.

@@ -269,16 +269,13 @@ void fase_dia(map<int, Persona>& personas) {
     string linchado;
     cin >> linchado;
     
-    bool acaba = false;
-    for (auto it = personas.begin(); it != personas.end() and not acaba; ++it) {
+    for (auto it = personas.begin(); it != personas.end(); ++it) {
         if ((it->second).nom == linchado) {
             (it->second).razon = "Lynched by the Town";
             cout << (it->second).nom << " - " << (it->second).rol << " - " << (it->second).razon << endl;
-            personas.erase(it);
-            acaba = true;
             usleep(1500000);
             
-            //If the hunter dies, someone else dies
+            //If the hunter dies, he kills someone
             if ((it->second).rol == "hunter") {
                 bool cadena = true;
                 
@@ -302,6 +299,8 @@ void fase_dia(map<int, Persona>& personas) {
                     }
                 }
             }
+	    auto it2 = personas.find(it->first);
+            personas.erase(it2);
         }
     }
     

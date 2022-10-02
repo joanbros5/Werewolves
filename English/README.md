@@ -57,7 +57,7 @@ In the example above, there will be 5 people with the role of Villager, 2 with H
 If the total number of roles is higher than the number of people in the game, there may be situations where there is an imbalance. This is good for making games that rely on chance. For instance, in this game:
 
 	#A B C D E F -		//6 people
-	#6 Villager 2 Wolf 0	//9 roles
+	#6 Villager 2 Wolf 0	//8 roles
 
 There may be 0, 1 or 2 Wolves in the game. It may be unfair to the wolves, but the game is also more mysterious and fun.
 

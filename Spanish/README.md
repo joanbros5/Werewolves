@@ -58,7 +58,7 @@ En el ejemplo de arriba, habrá 5 personas con el rol de Aldeano, 2 con Cazador,
 Si el número total de roles es más alto que el número de personas en la partida, se pueden dar situaciones que haya un desbalance. Esto sirve para hacer partidas que dependan de la estadística. Por ejemplo, en esta partida: 
 
 	#A B C D E F -		//6 personas
-	#6 Aldeano 2 Lobo 0	//9 roles
+	#6 Aldeano 2 Lobo 0	//8 roles
 
 Quizá en la partida haya 0, 1 o 2 Lobos. Puede ser injusto para los lobos, pero la partida también es más misteriosa y divertida.
 
